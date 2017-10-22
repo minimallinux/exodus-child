@@ -1,0 +1,88 @@
+/*
+ Theme Name:   Exodus Child
+ Theme URI:    https://webmobapps.com
+ Description:  Child Theme based on Generate press
+ Author:       Paul McGowan
+ Template:     generatepress
+ Version:      0.1
+*/
+.site-info {
+   background-color: #1B1B22;
+}
+
+.site-header {display:none}
+
+/* NAV & MENU ITEMS W/O Tab Hover BGs */
+.main-navigation {
+  background-color: #1B1B22;
+}
+/*Search Box*/
+
+.main-navigation .navigation-search input[type="search"], 
+.main-navigation .navigation-search input[type="search"]:active {
+	color: #FFFFFF;
+	background-color: #303030;
+}
+
+.main-navigation .navigation-search input[type="search"]:focus {
+	color: #FFFFFF;
+	background-color: #303030;
+}
+
+.main-navigation .main-nav ul li a, 
+.main-navigation .menu-toggle {
+	color: #FFFFFF;
+    background-color: transparent;
+}
+
+/* SUB-NAVIGATION */
+
+.main-navigation .main-nav ul ul li a {
+	color: #FFFFFF;
+    background-color: #1B1B22;
+}
+/* MENU ITEM HOVER */
+.main-navigation .main-nav ul li > a:hover, 
+.main-navigation .main-nav ul li > a:focus,
+.main-navigation .main-nav ul li.sfHover > a {
+	color: #c0c0c0;
+	background-color: transparent;
+}
+
+/* SUB-NAVIGATION HOVER */
+
+.main-navigation .main-nav ul ul li > a:hover, 
+.main-navigation .main-nav ul ul li > a:focus,
+.main-navigation .main-nav ul ul li.sfHover > a {
+	color: #c0c0c0;
+	background-color: #1B1B22;
+}    
+
+/* CURRENT ITEMS */
+
+.main-navigation .main-nav ul li[class*="current-menu-"] > a {
+	color: #c0c0c0;
+	background-color: transparent;
+}
+
+.main-navigation .main-nav ul li[class*="current-menu-"] > a:hover, 
+.main-navigation .main-nav ul li[class*="current-menu-"] > a:focus, 
+.main-navigation .main-nav ul li[class*="current-menu-"].sfHover > a {
+	color: #c0c0c0;
+	background-color: transparent;
+}
+
+/* SUB-NAVIGATION CURRENT ITEMS */
+
+.main-navigation .main-nav ul li[class*="current-menu-"] > a {
+	color: #c0c0c0;
+	background-color: transparent;
+}   
+
+.main-navigation .main-nav ul li[class*="current-menu-"] > a:hover, 
+.main-navigation .main-nav ul li[class*="current-menu-"] > a:focus, 
+.main-navigation .main-nav ul li[class*="current-menu-"].sfHover > a {
+	color: #c0c0c0;
+	background-color: transparent;
+}
+
